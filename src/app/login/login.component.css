@@ -1,0 +1,17 @@
+.example-form{
+    display: grid;
+    width: 300px;
+}
+mat-card-content{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.card{
+    width: 700px !important;
+    height: 250px !important;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: .5;
+}
