@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Proyecto';
+  login:any;
+  nombre(event:Event){
+    this.login = event
+  }
 }

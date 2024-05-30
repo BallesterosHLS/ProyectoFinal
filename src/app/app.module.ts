@@ -24,12 +24,18 @@ import { MatTableModule} from '@angular/material/table';
 import { MatPaginatorModule} from '@angular/material/paginator';
 import { MatMenuModule} from '@angular/material/menu';
 import { MatDialogModule} from '@angular/material/dialog';
+import { ListaUsuariosComponent } from './lista-usuarios/lista-usuarios.component';
+import { EditarComponent } from './editar/editar.component';
+import { ErrorComponent } from './error/error.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    FormularioComponent
+    FormularioComponent,
+    ListaUsuariosComponent,
+    EditarComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,

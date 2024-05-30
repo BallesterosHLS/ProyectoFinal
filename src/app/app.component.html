@@ -3,7 +3,7 @@
         <mat-icon>menu</mat-icon>
       </button>
       <mat-menu #menu="matMenu">
-        <button mat-menu-item [routerLink]="['login']">
+        <button mat-menu-item [routerLink]="['']">
           <mat-icon>login</mat-icon>
           <span>Iniciar Sesion</span>
         </button>
@@ -11,14 +11,21 @@
           <mat-icon>person_add</mat-icon>
           <span>Registrarse</span>
         </button>
+        <button mat-menu-item [routerLink]="['lista']">
+          <mat-icon>list_alt</mat-icon>
+          <span>Lista Usuarios</span>
+        </button>
       </mat-menu>
-      <span>Bienvenido</span>
+      <span>Bienvenid"&#64;" {{login}}</span>
       <span class="example-spacer"></span>
-      <button mat-icon-button class="example-icon favorite-icon" [routerLink]="['login']">
+      <button mat-icon-button class="example-icon favorite-icon" [routerLink]="['']">
         <mat-icon>login</mat-icon>
       </button>
       <button mat-icon-button class="example-icon" [routerLink]="['formulario']">
         <mat-icon>person_add</mat-icon>
+      </button>
+      <button mat-icon-button class="example-icon" [routerLink]="['lista']">
+        <mat-icon>list_alt</mat-icon>
       </button>
     </mat-toolbar>
 <router-outlet></router-outlet>
