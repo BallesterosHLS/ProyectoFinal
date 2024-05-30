@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "id": "e326",
+      "nombre": "Marissa",
+      "apellidos": "Meza Gómez",
+      "correo": "marissa@gmail.com",
+      "password": "marissa",
+      "rol": "Cliente"
+    },
+    {
+      "id": "d0ee",
+      "nombre": "Alexis",
+      "apellidos": "Jimenez",
+      "correo": "alexis@gmail.com",
+      "password": "alexis",
+      "rol": "Cliente"
+    },
+    {
+      "id": "a707",
+      "nombre": "Emilio",
+      "apellidos": "Hernández",
+      "correo": "emilio@gmail.com",
+      "password": "emilio",
+      "rol": "Cliente"
+    },
+    {
+      "id": "2972",
+      "nombre": "rehg",
+      "apellidos": "gre",
+      "correo": "marissa@gmail.com",
+      "password": "hola",
+      "rol": "Cliente"
+    },
+    {
+      "id": "7940",
+      "nombre": "Marissa",
+      "apellidos": "Meza Gómez",
+      "correo": "marissa@gmail.com",
+      "password": "vrwev",
+      "rol": "Cliente"
+    }
+  ]
+}
