@@ -24,16 +24,12 @@ import { MatTableModule} from '@angular/material/table';
 import { MatPaginatorModule} from '@angular/material/paginator';
 import { MatMenuModule} from '@angular/material/menu';
 import { MatDialogModule} from '@angular/material/dialog';
-import { UsuariosComponent } from './usuarios/usuarios.component';
-import { DialogoEditarComponent } from './dialogo-editar/dialogo-editar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    FormularioComponent,
-    UsuariosComponent,
-    DialogoEditarComponent
+    FormularioComponent
   ],
   imports: [
     BrowserModule,
