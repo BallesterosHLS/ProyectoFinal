@@ -18,8 +18,11 @@
       </mat-menu>
       <span>Bienvenid"&#64;" {{login}}</span>
       <span class="example-spacer"></span>
-      <button mat-icon-button class="example-icon favorite-icon" [routerLink]="['']">
+      <button mat-icon-button class="example-icon favorite-icon" [routerLink]="['']" *ngIf="!log()">
         <mat-icon>login</mat-icon>
+      </button>
+      <button mat-icon-button class="example-icon favorite-icon" *ngIf="log()" (click) = "logOut()">
+        <mat-icon>logout</mat-icon>
       </button>
       <button mat-icon-button class="example-icon" [routerLink]="['formulario']">
         <mat-icon>person_add</mat-icon>

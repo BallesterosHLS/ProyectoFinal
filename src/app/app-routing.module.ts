@@ -5,11 +5,12 @@ import { FormularioComponent } from './formulario/formulario.component';
 import { ListaUsuariosComponent } from './lista-usuarios/lista-usuarios.component';
 import { EditarComponent } from './editar/editar.component';
 import { ErrorComponent } from './error/error.component';
+import { loginGuardian } from './login/loginGuardian';
 const routes: Routes = [
   {path:"", component: LoginComponent},
   {path:"formulario", component: FormularioComponent},
-  {path:"editar", component: EditarComponent},
-  {path:"lista", component: ListaUsuariosComponent},
+  {path:"editar", component: EditarComponent, canActivate:[loginGuardian]},
+  {path:"lista", component: ListaUsuariosComponent,canActivate:[loginGuardian]},
   {path: "**",component: ErrorComponent}
 ];
 

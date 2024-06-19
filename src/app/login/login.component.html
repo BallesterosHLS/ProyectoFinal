@@ -5,12 +5,13 @@
             <mat-form-field appearance="fill">
                 <mat-label>Correo</mat-label>
                 <input matInput type="email" id="correo" formControlName="correo">
-              </mat-form-field>
+            </mat-form-field>
             <mat-form-field appearance="fill">
                 <mat-label>Contraseña</mat-label>
                 <input matInput type="password" id="password" formControlName="password">
-              </mat-form-field>
-              <button mat-flat-button color="warn" type="submit">Iniciar Sesión</button>
+            </mat-form-field>
+            <button mat-flat-button color="warn" type="submit">Iniciar Sesión</button>
+            <a [routerLink]="['formulario']" style="text-decoration: underline;color: gray;text-align: center;"><p>No tienes sesión? Regístrate</p></a>
         </form>
     </mat-card-content>
 </mat-card> 

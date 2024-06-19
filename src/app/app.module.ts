@@ -27,6 +27,7 @@ import { MatDialogModule} from '@angular/material/dialog';
 import { ListaUsuariosComponent } from './lista-usuarios/lista-usuarios.component';
 import { EditarComponent } from './editar/editar.component';
 import { ErrorComponent } from './error/error.component';
+import { loginGuardian } from './login/loginGuardian';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,7 @@ import { ErrorComponent } from './error/error.component';
     MatMenuModule,
     MatDialogModule
   ],
-  providers: [],
+  providers: [loginGuardian],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
